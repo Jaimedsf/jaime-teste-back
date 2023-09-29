@@ -1,0 +1,13 @@
+version: '3'
+services:
+  app:
+    image: jaime/pefoce
+    ports:
+      - "8080:8080"
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: jaimedatabase
+    ports:
+      - "5432:5432"
