@@ -97,10 +97,12 @@ Ou um usuário comum por POST
 
 Logue em http://localhost:8080/api/auth/signin e visualize o token por POST
 
+```
 {
 "username": "admin",
 "password": "12345678"
 }
+```
 
 Para acessar todos os clientes http://localhost:8080/api/clients por GET necessário usar o token gerado ao se logar. No Headers adicione Authorization com valor Bearer {token}
 
