@@ -104,4 +104,24 @@ Logue em http://localhost:8080/api/auth/signin e visualize o token por POST
 
 Para acessar todos os clientes http://localhost:8080/api/clients por GET necessário usar o token gerado ao se logar. No Headers adicione Authorization com valor Bearer {token}
 
+Cadastrar um cliente em http://localhost:8080/api/clients/add
+
+
+```
+{
+    "nome": "teste teste",
+    "email": "teste@teste.com",
+    "cpf": "123456789",
+    "renda": 2550,
+    "telefone": "859999999",
+    "dataCriacao": "2023-05-19T09:36:00"
+}
+```
+
+Obter todos os clientes em http://localhost:8080/api/clients. 
+
+Deletar um cliente em http://localhost:8080/api/clients/152. Necessário usar o token gerado de um usuário administrador para deletar no Headers adicione Authorization com valor Bearer {token}
+
+
+
 
