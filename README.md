@@ -72,7 +72,7 @@ SELECT
 FROM generate_series(1, 10);  -- Gera 10 registros
 ```
 
-Com a plicação rodando cadastre um administrador em http://localhost:8080/api/auth/signup por POST
+Com a aplicação rodando cadastre um administrador em http://localhost:8080/api/auth/signup por POST
 
 ```
 {
